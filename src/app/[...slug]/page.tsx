@@ -1,14 +1,16 @@
 import { notFound } from 'next/navigation';
 
 interface CatchAllPageProps {
-  params: {
+  params: Promise<{
     slug: string[];
-  };
+  }>;
 }
 
-export default function CatchAllPage({ params }: CatchAllPageProps) {
+export default async function CatchAllPage({ params }: CatchAllPageProps) {
+  const { slug } = await params;
+  
   // If someone tries to access the root path, redirect to home
-  if (params.slug.length === 0) {
+  if (slug.length === 0) {
     return notFound();
   }
 
