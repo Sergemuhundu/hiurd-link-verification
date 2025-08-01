@@ -3,8 +3,33 @@
     "apps": [],
     "details": [
       {
-        "appID": "72VF79A2RW.com.hiurd.app",
-        "paths": ["*", "/offer/*", "/profile/*"]
+        "appID": "72VF79A2RW.com.hiurdapp",
+        "paths": [
+          "*",
+          "/job-post/*",
+          "/job-posts/*",
+          "/post-job/*",
+          "/create-job/*",
+          "/job-drafts/*",
+          "/job-post-details/*",
+          "/job/*",
+          "/jobs/*",
+          "/job-details/*",
+          "/my-jobs/*",
+          "/view-jobs/*",
+          "/bid/*",
+          "/bids/*",
+          "/place-bid/*",
+          "/select-bid/*",
+          "/my-bids/*",
+          "/service-order/*",
+          "/service-orders/*",
+          "/order/*",
+          "/orders/*",
+          "/place-order/*",
+          "/select-order/*",
+          "/my-orders/*"
+        ]
       }
     ]
   }
