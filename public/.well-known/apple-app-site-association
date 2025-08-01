@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "72VF79A2RW.com.hiurd.app",
+        "paths": ["*", "/offer/*", "/profile/*"]
+      }
+    ]
+  }
+}
