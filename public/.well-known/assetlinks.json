@@ -3,7 +3,7 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.hiurd.app",
+      "package_name": "com.hiurdapp",
       "sha256_cert_fingerprints": [
         "7A:01:62:59:2A:A5:A4:84:E6:6E:46:B4:B8:F7:02:24:E8:9A:AE:9C:93:25:09:E6:62:0E:D9:E4:86:82:36:04"
       ]
